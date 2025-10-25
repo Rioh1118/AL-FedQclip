@@ -40,11 +40,11 @@ from typing import Dict, Mapping, Any, Tuple
 
 import torch
 
-from interfaces import LayerId, Tensor, QuantizedPacket
-from .types import ClientId
+from ..interfaces import LayerId, Tensor, QuantizedPacket, ClientId
+from ..interfaces import ILayerAggregator
 
 
-class LayerwiseAggregator:
+class LayerwiseAggregator(ILayerAggregator):
     def __init__(self, *, eps: float = 1e-12) -> None:
         self.eps = float(eps)
 

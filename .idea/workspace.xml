@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a77ed298-678a-4e39-a324-e625a58d5fca" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AL-FedQclip.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/aggregator_layerwise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/bitalloc_waterfill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/clipper_mad_ema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/importance_ema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/quant_clip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/scheduler_sigmoid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/server_clip_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/aggregation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/bitalloc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/clipper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/importance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/privacy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/quantization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/server_clip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/submodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/interfaces/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/pipelines/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/pipelines/client_core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/pipelines/planning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/pipelines/server_core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/pipelines/types.py" afterDir="false" />
+    <list default="true" id="a77ed298-678a-4e39-a324-e625a58d5fca" name="変更" comment="initial">
+      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/aggregator_layerwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/aggregator_layerwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/bitalloc_waterfill.py" beforeDir="false" afterPath="$PROJECT_DIR$/al-fedqclip/al_fedqclip/compress/bitalloc_waterfill.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Rioh1118"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rioh1118/AL-FedQclip.git",
+    "accountId": "8c0cb1ad-034e-4449-82d8-0a4ce1f3b5d3"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -78,6 +63,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/al-fedqclip/al_fedqclip" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,11 +83,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760946123020</updated>
-      <workItem from="1760946124409" duration="45382000" />
+      <workItem from="1760946124409" duration="60012000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1761267250330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761267250330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>
